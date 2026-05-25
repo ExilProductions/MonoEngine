@@ -10,12 +10,13 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:/home/exil_s/MonoEngine/MonoEngine.Pipeline/MonoEngine.Pipeline/bin/Release/net8.0/MonoEngine.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Models/MonoGameCube.fbx
+#begin Models/Teapot/teapot.fbx
 /importer:FbxImporter
-/processor:ModelProcessor
+/processor:RuntimeSafeModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
 /processorParam:ColorKeyEnabled=True
 /processorParam:DefaultEffect=BasicEffect
@@ -27,8 +28,8 @@
 /processorParam:RotationX=0
 /processorParam:RotationY=0
 /processorParam:RotationZ=0
-/processorParam:Scale=1
+/processorParam:Scale=0.03
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=Color
-/build:Models/MonoGameCube.fbx
+/processorParam:TextureFormat=Compressed
+/build:Models/Teapot/teapot.fbx
 
